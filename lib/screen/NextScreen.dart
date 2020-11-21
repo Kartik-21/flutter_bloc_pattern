@@ -4,7 +4,6 @@ import 'package:flutter_bloc_pattern/bloc/ArticleBloc/article_bloc.dart';
 import 'package:flutter_bloc_pattern/bloc/ArticleBloc/article_event.dart';
 import 'package:flutter_bloc_pattern/bloc/ArticleBloc/article_state.dart';
 import 'package:flutter_bloc_pattern/model/article_data.dart';
-import 'package:flutter_bloc_pattern/repo/ArticleRepo.dart';
 
 class NextScreen extends StatefulWidget {
   @override
