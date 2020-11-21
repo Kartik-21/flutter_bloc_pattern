@@ -17,17 +17,17 @@ class CounterBloc extends Bloc<CounterEvent, int> {
     }
   }
 
-  @override
-  void onEvent(CounterEvent event) {
-    print(event);
-    super.onEvent(event);
-  }
-
-  @override
-  void onChange(Change<int> change) {
-    print(change);
-    super.onChange(change);
-  }
+  // @override
+  // void onEvent(CounterEvent event) {
+  //   print(event);
+  //   super.onEvent(event);
+  // }
+  //
+  // @override
+  // void onChange(Change<int> change) {
+  //   print(change);
+  //   super.onChange(change);
+  // }
 
   @override
   void onTransition(Transition<CounterEvent, int> transition) {
